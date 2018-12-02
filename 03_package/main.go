@@ -1,13 +1,15 @@
 package main
 
-import "fmt"
-import "math"
-import "03_package/strutil"
+import (
+	string "03_package/stringutil"
+	"fmt"
+	"math"
+)
 
 func main() {
 
 	fmt.Println(math.Floor(2.7))
 	fmt.Println(math.Floor(2.7))
-	fmt.Println(strutil.Reverse("jarin"))
+	fmt.Println(string.Reverse1("jarin"))
 
 }
